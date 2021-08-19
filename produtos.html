@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Isabella Alves">
+    <meta http-equiv="refresh" content="60">
+    <link rel="shortcut icon" href="imagem/icons8-computador.lnk" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <script src="https://kit.fontawesome.com/3c9574b926.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Loja de Informática</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo"><a href="index.html">Loja de Informática</a></h1>
+        <form action="menucentral.html" method="get">
+        <input type="text" name="pesquisa"  id="pesquisa" placeholder="Faça sua pesquisa aqui">
+        <button><i class="fas fa-search"></i></button>
+      </form>                
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://pt-br.facebook.com/"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="https://twitter.com/twitter"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="https://www.google.com/intl/pt-BR/gmail/about/"><i class="far fa-envelope fa-lg"></i></a>
+            <a href="https://www.google.com/?hl=pt_br"><i class="fab fa-google fa-lg"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube fa-lg"></i></a>
+            <a href="https://br.linkedin.com/"><i class="fab fa-linkedin fa-lg"></i></a>
+        </div>
+    </nav>
+    <main class="principal">
+        <section class="marcas">
+            <img id="banner" src="imagem/bannerprodutos.jpg" alt="Intel">
+            <h2>Marcas Disponiveis</h2>
+            <br>
+            <div class="row">
+                <div class="coluna">
+                    <img id="img1" src="imagem/dell.jpg" alt="Dell">
+                </div>
+                <div class="coluna">
+                    <img id="img2" src="imagem/asus.jpg" alt="Asus">
+                </div>
+                <div class="coluna">
+                    <img id="img3" src="imagem/hp.jpg" alt="HP">
+                </div>
+                <div class="coluna">
+                    <img id="img4" src="imagem/samsung.png" alt="Samsung">
+                </div>
+            </div>
+        </section>
+        <section class="ofertas">
+            <br>
+            <h2>Ofertas em Destaque</h2>
+            <div class="row">
+                <div class="coluna">
+                    <img id="img5" src="imagem/produtos1" alt="Samsung">
+                    <br>
+                    <h3>Notebook Gamer Samsung <br> R$5254,60</h3>
+                    <br>
+                    <button type="button">Comprar</button>
+                </div>
+                <div class="coluna">
+                    <img id="img5" src="imagem/produto2.jpg" alt="Asus">
+                    <br>
+                    <h3>Notebook Gamer Asus<br> R$5.299</h3>
+                    <br>
+                    <button type="button">Comprar</button>
+                </div>
+                <div class="coluna">
+                    <img id="img5" src="imagem/produtos3" alt="Dell">
+                    <br>
+                    <h3>Notebook Gamer Dell<br>  R$ 5.749,00</h3>
+                    <br>
+                    <button type="button">Comprar</button>
+                </div>
+                <div class="coluna">
+                    <img id="img5" src="imagem/produtos5.png" alt="HP">
+                    <br>
+                    <h3>Notebook  HP<br> R$4.084,05 </h3>
+                    <br>
+                    <button type="button">Comprar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="ofertas">
+            <br>
+            <h2>Últimas Ofertas</h2>
+            <div class="row">
+                <div class="coluna">
+                    <img id="img5" src="imagem/produtos4.jpg" alt="HQ">
+                    <br>
+                    <h3>Pc Gamer Completo<br> R$ 7.884,00</h3>
+                    <br>
+                    <button type="button">Comprar</button>
+                </div>
+                <div class="coluna">
+                    <img id="img5" src="imagem/produtos6" alt="DELL">
+                    <br>
+                    <h3>Teclado DELL<br> R$129,00</h3>
+                    <br>
+                    <button type="button">Comprar</button>
+                </div>
+                <div class="coluna">
+                    <img id="img5" src="imagem/produtos7" alt="DELL">
+                    <br>
+                    <h3>Mouse Dell<br> R$118,00</h3>
+                    <br>
+                    <button type="button">Comprar</button>
+                </div>
+                <div class="coluna">
+                    <img id="img5" src="imagem/produtos8.jpg" alt="ASSUS">
+                    <br>
+                    <h3>Placa de Video Asus<br> R$2.699,10</h3>
+                    <br>
+                    <button type="button">Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="newsletter">
+        <p>Receba nossas promoções por email</p>
+        <h3>Newsletter</h3>
+        <form action="#" method="post">
+            <input type="text" name="Nome" id="nome" placeholder="Digite seu nome ">
+            <input type="email" name="Email" id="email" placeholder="Digite seu e-mail">
+            <button type="button">Cadastrar</button>
+        </form>
+    </section>
+    <footer class="rodape">
+        <p>&copy;Loja de Informática - Todos os direitos reservados </p>
+    </footer>
+</body>
+</html>
